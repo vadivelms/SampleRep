@@ -1,7 +1,11 @@
 def main():
-    height=int(input("What is height? "))
+    height = int(input("What is height? "))
     prymid(height)
+
+
 def prymid(n):
     for i in range(n):
-        print("#"*i)
+        print("#"*(i+1))
+
+
 main()
